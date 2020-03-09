@@ -1,0 +1,38 @@
+@charset "utf-8";
+/* CSS Document */
+
+*{
+	box-sizing: border-box;
+	margin:0;
+	padding:0;
+	background-color:#24252a;
+	}
+
+li,a,button{
+	font-weight:500;
+	font-size:16px;
+	color: #edf0f1;
+	text-decoration: none;
+	}
+header{
+	display:flex;
+	justify-content:space-between;/*separates elements of a tag to the edges and
+	                               leave space btn then*/
+	align-items: center;/*aligne items to the center of on other*/
+	padding:30px 10%;/*leave a space on top and bottom 30px and 10% in sides*/
+	}
+.logo{
+	cursor:pointer;
+}
+
+.nav_links{
+	list-style: none;/*remove dots on list's items*/
+}
+.nav_links li{/*targets each 'li' in nav_links class */
+	display: inline-block;/*arrange li in columns instead of rows*/
+	padding: 0px 20px;
+}
+.nav_links li a{
+	transition: all 0.3s ease 0s;
+}
+.nav_links li a:hover
